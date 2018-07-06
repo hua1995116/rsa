@@ -1,5 +1,5 @@
 const fs = require('fs');
-const quick = require('./quick.js');
+const quick = require('./quick');
 
 fs.readFile('previteKey', 'utf8', (err, data) => {
 	if(err) {
